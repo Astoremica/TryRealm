@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDF18F4F25F1E6E700A3B092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF18F4E25F1E6E700A3B092 /* AppDelegate.swift */; };
+		EDF18F5125F1E6E700A3B092 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF18F5025F1E6E700A3B092 /* SceneDelegate.swift */; };
+		EDF18F5325F1E6E700A3B092 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF18F5225F1E6E700A3B092 /* ViewController.swift */; };
+		EDF18F5625F1E6E700A3B092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF18F5425F1E6E700A3B092 /* Main.storyboard */; };
+		EDF18F5825F1E6E700A3B092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF18F5725F1E6E700A3B092 /* Assets.xcassets */; };
+		EDF18F5B25F1E6E700A3B092 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF18F5925F1E6E700A3B092 /* LaunchScreen.storyboard */; };
+		EDF18F6625F1E6E700A3B092 /* TryRealmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF18F6525F1E6E700A3B092 /* TryRealmTests.swift */; };
+		EDF18F7125F1E6E700A3B092 /* TryRealmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF18F7025F1E6E700A3B092 /* TryRealmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDF18F6225F1E6E700A3B092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF18F4325F1E6E700A3B092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF18F4A25F1E6E700A3B092;
+			remoteInfo = TryRealm;
+		};
+		EDF18F6D25F1E6E700A3B092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF18F4325F1E6E700A3B092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF18F4A25F1E6E700A3B092;
+			remoteInfo = TryRealm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDF18F4B25F1E6E700A3B092 /* TryRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF18F4E25F1E6E700A3B092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDF18F5025F1E6E700A3B092 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDF18F5225F1E6E700A3B092 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDF18F5525F1E6E700A3B092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDF18F5725F1E6E700A3B092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDF18F5A25F1E6E700A3B092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDF18F5C25F1E6E700A3B092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF18F6125F1E6E700A3B092 /* TryRealmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryRealmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF18F6525F1E6E700A3B092 /* TryRealmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryRealmTests.swift; sourceTree = "<group>"; };
+		EDF18F6725F1E6E700A3B092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF18F6C25F1E6E700A3B092 /* TryRealmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryRealmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF18F7025F1E6E700A3B092 /* TryRealmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryRealmUITests.swift; sourceTree = "<group>"; };
+		EDF18F7225F1E6E700A3B092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDF18F4825F1E6E700A3B092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF18F5E25F1E6E700A3B092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF18F6925F1E6E700A3B092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDF18F4225F1E6E700A3B092 = {
+			isa = PBXGroup;
+			children = (
+				EDF18F4D25F1E6E700A3B092 /* TryRealm */,
+				EDF18F6425F1E6E700A3B092 /* TryRealmTests */,
+				EDF18F6F25F1E6E700A3B092 /* TryRealmUITests */,
+				EDF18F4C25F1E6E700A3B092 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDF18F4C25F1E6E700A3B092 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF18F4B25F1E6E700A3B092 /* TryRealm.app */,
+				EDF18F6125F1E6E700A3B092 /* TryRealmTests.xctest */,
+				EDF18F6C25F1E6E700A3B092 /* TryRealmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDF18F4D25F1E6E700A3B092 /* TryRealm */ = {
+			isa = PBXGroup;
+			children = (
+				EDF18F4E25F1E6E700A3B092 /* AppDelegate.swift */,
+				EDF18F5025F1E6E700A3B092 /* SceneDelegate.swift */,
+				EDF18F5225F1E6E700A3B092 /* ViewController.swift */,
+				EDF18F5425F1E6E700A3B092 /* Main.storyboard */,
+				EDF18F5725F1E6E700A3B092 /* Assets.xcassets */,
+				EDF18F5925F1E6E700A3B092 /* LaunchScreen.storyboard */,
+				EDF18F5C25F1E6E700A3B092 /* Info.plist */,
+			);
+			path = TryRealm;
+			sourceTree = "<group>";
+		};
+		EDF18F6425F1E6E700A3B092 /* TryRealmTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDF18F6525F1E6E700A3B092 /* TryRealmTests.swift */,
+				EDF18F6725F1E6E700A3B092 /* Info.plist */,
+			);
+			path = TryRealmTests;
+			sourceTree = "<group>";
+		};
+		EDF18F6F25F1E6E700A3B092 /* TryRealmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDF18F7025F1E6E700A3B092 /* TryRealmUITests.swift */,
+				EDF18F7225F1E6E700A3B092 /* Info.plist */,
+			);
+			path = TryRealmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDF18F4A25F1E6E700A3B092 /* TryRealm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF18F7525F1E6E700A3B092 /* Build configuration list for PBXNativeTarget "TryRealm" */;
+			buildPhases = (
+				EDF18F4725F1E6E700A3B092 /* Sources */,
+				EDF18F4825F1E6E700A3B092 /* Frameworks */,
+				EDF18F4925F1E6E700A3B092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TryRealm;
+			productName = TryRealm;
+			productReference = EDF18F4B25F1E6E700A3B092 /* TryRealm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDF18F6025F1E6E700A3B092 /* TryRealmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF18F7825F1E6E700A3B092 /* Build configuration list for PBXNativeTarget "TryRealmTests" */;
+			buildPhases = (
+				EDF18F5D25F1E6E700A3B092 /* Sources */,
+				EDF18F5E25F1E6E700A3B092 /* Frameworks */,
+				EDF18F5F25F1E6E700A3B092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDF18F6325F1E6E700A3B092 /* PBXTargetDependency */,
+			);
+			name = TryRealmTests;
+			productName = TryRealmTests;
+			productReference = EDF18F6125F1E6E700A3B092 /* TryRealmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDF18F6B25F1E6E700A3B092 /* TryRealmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF18F7B25F1E6E700A3B092 /* Build configuration list for PBXNativeTarget "TryRealmUITests" */;
+			buildPhases = (
+				EDF18F6825F1E6E700A3B092 /* Sources */,
+				EDF18F6925F1E6E700A3B092 /* Frameworks */,
+				EDF18F6A25F1E6E700A3B092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDF18F6E25F1E6E700A3B092 /* PBXTargetDependency */,
+			);
+			name = TryRealmUITests;
+			productName = TryRealmUITests;
+			productReference = EDF18F6C25F1E6E700A3B092 /* TryRealmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF18F4325F1E6E700A3B092 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EDF18F4A25F1E6E700A3B092 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EDF18F6025F1E6E700A3B092 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EDF18F4A25F1E6E700A3B092;
+					};
+					EDF18F6B25F1E6E700A3B092 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EDF18F4A25F1E6E700A3B092;
+					};
+				};
+			};
+			buildConfigurationList = EDF18F4625F1E6E700A3B092 /* Build configuration list for PBXProject "TryRealm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDF18F4225F1E6E700A3B092;
+			productRefGroup = EDF18F4C25F1E6E700A3B092 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF18F4A25F1E6E700A3B092 /* TryRealm */,
+				EDF18F6025F1E6E700A3B092 /* TryRealmTests */,
+				EDF18F6B25F1E6E700A3B092 /* TryRealmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDF18F4925F1E6E700A3B092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF18F5B25F1E6E700A3B092 /* LaunchScreen.storyboard in Resources */,
+				EDF18F5825F1E6E700A3B092 /* Assets.xcassets in Resources */,
+				EDF18F5625F1E6E700A3B092 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF18F5F25F1E6E700A3B092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF18F6A25F1E6E700A3B092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDF18F4725F1E6E700A3B092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF18F5325F1E6E700A3B092 /* ViewController.swift in Sources */,
+				EDF18F4F25F1E6E700A3B092 /* AppDelegate.swift in Sources */,
+				EDF18F5125F1E6E700A3B092 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF18F5D25F1E6E700A3B092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF18F6625F1E6E700A3B092 /* TryRealmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF18F6825F1E6E700A3B092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF18F7125F1E6E700A3B092 /* TryRealmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDF18F6325F1E6E700A3B092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDF18F4A25F1E6E700A3B092 /* TryRealm */;
+			targetProxy = EDF18F6225F1E6E700A3B092 /* PBXContainerItemProxy */;
+		};
+		EDF18F6E25F1E6E700A3B092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDF18F4A25F1E6E700A3B092 /* TryRealm */;
+			targetProxy = EDF18F6D25F1E6E700A3B092 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDF18F5425F1E6E700A3B092 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF18F5525F1E6E700A3B092 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDF18F5925F1E6E700A3B092 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF18F5A25F1E6E700A3B092 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDF18F7325F1E6E700A3B092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDF18F7425F1E6E700A3B092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDF18F7625F1E6E700A3B092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HJ5937US4;
+				INFOPLIST_FILE = TryRealm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yonaios.TryRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDF18F7725F1E6E700A3B092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HJ5937US4;
+				INFOPLIST_FILE = TryRealm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yonaios.TryRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDF18F7925F1E6E700A3B092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HJ5937US4;
+				INFOPLIST_FILE = TryRealmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yonaios.TryRealmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryRealm.app/TryRealm";
+			};
+			name = Debug;
+		};
+		EDF18F7A25F1E6E700A3B092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HJ5937US4;
+				INFOPLIST_FILE = TryRealmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yonaios.TryRealmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryRealm.app/TryRealm";
+			};
+			name = Release;
+		};
+		EDF18F7C25F1E6E700A3B092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HJ5937US4;
+				INFOPLIST_FILE = TryRealmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yonaios.TryRealmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TryRealm;
+			};
+			name = Debug;
+		};
+		EDF18F7D25F1E6E700A3B092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HJ5937US4;
+				INFOPLIST_FILE = TryRealmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yonaios.TryRealmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TryRealm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF18F4625F1E6E700A3B092 /* Build configuration list for PBXProject "TryRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF18F7325F1E6E700A3B092 /* Debug */,
+				EDF18F7425F1E6E700A3B092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF18F7525F1E6E700A3B092 /* Build configuration list for PBXNativeTarget "TryRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF18F7625F1E6E700A3B092 /* Debug */,
+				EDF18F7725F1E6E700A3B092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF18F7825F1E6E700A3B092 /* Build configuration list for PBXNativeTarget "TryRealmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF18F7925F1E6E700A3B092 /* Debug */,
+				EDF18F7A25F1E6E700A3B092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF18F7B25F1E6E700A3B092 /* Build configuration list for PBXNativeTarget "TryRealmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF18F7C25F1E6E700A3B092 /* Debug */,
+				EDF18F7D25F1E6E700A3B092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF18F4325F1E6E700A3B092 /* Project object */;
+}

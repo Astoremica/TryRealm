@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F739F3652E7CA6A3D8D402A /* Pods_TryRealm_TryRealmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651E17FB8FD353D4A53BF53D /* Pods_TryRealm_TryRealmUITests.framework */; };
+		5B81D39D4DDAE99701F917C9 /* Pods_TryRealmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2820FD97702C8734A3DF79D9 /* Pods_TryRealmTests.framework */; };
+		656F2C08B1F5FB22C530B853 /* Pods_TryRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7F54AC098612EADF4E62DC /* Pods_TryRealm.framework */; };
+		ED17E34725F201B90060A859 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17E34625F201B90060A859 /* User.swift */; };
 		EDF18F4F25F1E6E700A3B092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF18F4E25F1E6E700A3B092 /* AppDelegate.swift */; };
 		EDF18F5125F1E6E700A3B092 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF18F5025F1E6E700A3B092 /* SceneDelegate.swift */; };
 		EDF18F5325F1E6E700A3B092 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF18F5225F1E6E700A3B092 /* ViewController.swift */; };
@@ -35,6 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B7F54AC098612EADF4E62DC /* Pods_TryRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TryRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2820FD97702C8734A3DF79D9 /* Pods_TryRealmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TryRealmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE3800843CF19A38ADEE1F8 /* Pods-TryRealmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryRealmTests.debug.xcconfig"; path = "Target Support Files/Pods-TryRealmTests/Pods-TryRealmTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4045246C4AD124BDB32461DE /* Pods-TryRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryRealm.release.xcconfig"; path = "Target Support Files/Pods-TryRealm/Pods-TryRealm.release.xcconfig"; sourceTree = "<group>"; };
+		4863979680497CF8DA8CDCD3 /* Pods-TryRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryRealm.debug.xcconfig"; path = "Target Support Files/Pods-TryRealm/Pods-TryRealm.debug.xcconfig"; sourceTree = "<group>"; };
+		62E1B5B202C9B38893B4CF4B /* Pods-TryRealm-TryRealmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryRealm-TryRealmUITests.debug.xcconfig"; path = "Target Support Files/Pods-TryRealm-TryRealmUITests/Pods-TryRealm-TryRealmUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		651E17FB8FD353D4A53BF53D /* Pods_TryRealm_TryRealmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TryRealm_TryRealmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C30799030CD49A020165738 /* Pods-TryRealm-TryRealmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryRealm-TryRealmUITests.release.xcconfig"; path = "Target Support Files/Pods-TryRealm-TryRealmUITests/Pods-TryRealm-TryRealmUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED17E34625F201B90060A859 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ED1F498B1F5C6F99B639619A /* Pods-TryRealmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryRealmTests.release.xcconfig"; path = "Target Support Files/Pods-TryRealmTests/Pods-TryRealmTests.release.xcconfig"; sourceTree = "<group>"; };
 		EDF18F4B25F1E6E700A3B092 /* TryRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF18F4E25F1E6E700A3B092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDF18F5025F1E6E700A3B092 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656F2C08B1F5FB22C530B853 /* Pods_TryRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B81D39D4DDAE99701F917C9 /* Pods_TryRealmTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F739F3652E7CA6A3D8D402A /* Pods_TryRealm_TryRealmUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54628CC547C881C0136B6C9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B7F54AC098612EADF4E62DC /* Pods_TryRealm.framework */,
+				651E17FB8FD353D4A53BF53D /* Pods_TryRealm_TryRealmUITests.framework */,
+				2820FD97702C8734A3DF79D9 /* Pods_TryRealmTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DEE05476C9B7A630820B323 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4863979680497CF8DA8CDCD3 /* Pods-TryRealm.debug.xcconfig */,
+				4045246C4AD124BDB32461DE /* Pods-TryRealm.release.xcconfig */,
+				62E1B5B202C9B38893B4CF4B /* Pods-TryRealm-TryRealmUITests.debug.xcconfig */,
+				9C30799030CD49A020165738 /* Pods-TryRealm-TryRealmUITests.release.xcconfig */,
+				3EE3800843CF19A38ADEE1F8 /* Pods-TryRealmTests.debug.xcconfig */,
+				ED1F498B1F5C6F99B639619A /* Pods-TryRealmTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EDF18F4225F1E6E700A3B092 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				EDF18F6425F1E6E700A3B092 /* TryRealmTests */,
 				EDF18F6F25F1E6E700A3B092 /* TryRealmUITests */,
 				EDF18F4C25F1E6E700A3B092 /* Products */,
+				8DEE05476C9B7A630820B323 /* Pods */,
+				54628CC547C881C0136B6C9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +148,7 @@
 				EDF18F5725F1E6E700A3B092 /* Assets.xcassets */,
 				EDF18F5925F1E6E700A3B092 /* LaunchScreen.storyboard */,
 				EDF18F5C25F1E6E700A3B092 /* Info.plist */,
+				ED17E34625F201B90060A859 /* User.swift */,
 			);
 			path = TryRealm;
 			sourceTree = "<group>";
@@ -135,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDF18F7525F1E6E700A3B092 /* Build configuration list for PBXNativeTarget "TryRealm" */;
 			buildPhases = (
+				27AECDF2F598B1073FA718E1 /* [CP] Check Pods Manifest.lock */,
 				EDF18F4725F1E6E700A3B092 /* Sources */,
 				EDF18F4825F1E6E700A3B092 /* Frameworks */,
 				EDF18F4925F1E6E700A3B092 /* Resources */,
+				9430F3DBC6F4F8403605BD6B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDF18F7825F1E6E700A3B092 /* Build configuration list for PBXNativeTarget "TryRealmTests" */;
 			buildPhases = (
+				13686AFF16BCF87BE003A67B /* [CP] Check Pods Manifest.lock */,
 				EDF18F5D25F1E6E700A3B092 /* Sources */,
 				EDF18F5E25F1E6E700A3B092 /* Frameworks */,
 				EDF18F5F25F1E6E700A3B092 /* Resources */,
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDF18F7B25F1E6E700A3B092 /* Build configuration list for PBXNativeTarget "TryRealmUITests" */;
 			buildPhases = (
+				2C6E92A9F715831D89C36DEC /* [CP] Check Pods Manifest.lock */,
 				EDF18F6825F1E6E700A3B092 /* Sources */,
 				EDF18F6925F1E6E700A3B092 /* Frameworks */,
 				EDF18F6A25F1E6E700A3B092 /* Resources */,
+				4D26D06C94F1590532FCFE5E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,11 +301,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13686AFF16BCF87BE003A67B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TryRealmTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27AECDF2F598B1073FA718E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TryRealm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C6E92A9F715831D89C36DEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TryRealm-TryRealmUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D26D06C94F1590532FCFE5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TryRealm-TryRealmUITests/Pods-TryRealm-TryRealmUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TryRealm-TryRealmUITests/Pods-TryRealm-TryRealmUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TryRealm-TryRealmUITests/Pods-TryRealm-TryRealmUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9430F3DBC6F4F8403605BD6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TryRealm/Pods-TryRealm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TryRealm/Pods-TryRealm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TryRealm/Pods-TryRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EDF18F4725F1E6E700A3B092 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED17E34725F201B90060A859 /* User.swift in Sources */,
 				EDF18F5325F1E6E700A3B092 /* ViewController.swift in Sources */,
 				EDF18F4F25F1E6E700A3B092 /* AppDelegate.swift in Sources */,
 				EDF18F5125F1E6E700A3B092 /* SceneDelegate.swift in Sources */,
@@ -433,6 +585,7 @@
 		};
 		EDF18F7625F1E6E700A3B092 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4863979680497CF8DA8CDCD3 /* Pods-TryRealm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +605,7 @@
 		};
 		EDF18F7725F1E6E700A3B092 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4045246C4AD124BDB32461DE /* Pods-TryRealm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +625,7 @@
 		};
 		EDF18F7925F1E6E700A3B092 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EE3800843CF19A38ADEE1F8 /* Pods-TryRealmTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +648,7 @@
 		};
 		EDF18F7A25F1E6E700A3B092 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED1F498B1F5C6F99B639619A /* Pods-TryRealmTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +671,7 @@
 		};
 		EDF18F7C25F1E6E700A3B092 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62E1B5B202C9B38893B4CF4B /* Pods-TryRealm-TryRealmUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +692,7 @@
 		};
 		EDF18F7D25F1E6E700A3B092 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C30799030CD49A020165738 /* Pods-TryRealm-TryRealmUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

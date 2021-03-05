@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3F739F3652E7CA6A3D8D402A /* Pods_TryRealm_TryRealmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651E17FB8FD353D4A53BF53D /* Pods_TryRealm_TryRealmUITests.framework */; };
 		5B81D39D4DDAE99701F917C9 /* Pods_TryRealmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2820FD97702C8734A3DF79D9 /* Pods_TryRealmTests.framework */; };
 		656F2C08B1F5FB22C530B853 /* Pods_TryRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7F54AC098612EADF4E62DC /* Pods_TryRealm.framework */; };
+		ED17E34725F201B90060A859 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17E34625F201B90060A859 /* User.swift */; };
 		EDF18F4F25F1E6E700A3B092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF18F4E25F1E6E700A3B092 /* AppDelegate.swift */; };
 		EDF18F5125F1E6E700A3B092 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF18F5025F1E6E700A3B092 /* SceneDelegate.swift */; };
 		EDF18F5325F1E6E700A3B092 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF18F5225F1E6E700A3B092 /* ViewController.swift */; };
@@ -46,6 +47,7 @@
 		62E1B5B202C9B38893B4CF4B /* Pods-TryRealm-TryRealmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryRealm-TryRealmUITests.debug.xcconfig"; path = "Target Support Files/Pods-TryRealm-TryRealmUITests/Pods-TryRealm-TryRealmUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		651E17FB8FD353D4A53BF53D /* Pods_TryRealm_TryRealmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TryRealm_TryRealmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C30799030CD49A020165738 /* Pods-TryRealm-TryRealmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryRealm-TryRealmUITests.release.xcconfig"; path = "Target Support Files/Pods-TryRealm-TryRealmUITests/Pods-TryRealm-TryRealmUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED17E34625F201B90060A859 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		ED1F498B1F5C6F99B639619A /* Pods-TryRealmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryRealmTests.release.xcconfig"; path = "Target Support Files/Pods-TryRealmTests/Pods-TryRealmTests.release.xcconfig"; sourceTree = "<group>"; };
 		EDF18F4B25F1E6E700A3B092 /* TryRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF18F4E25F1E6E700A3B092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,7 +113,6 @@
 				3EE3800843CF19A38ADEE1F8 /* Pods-TryRealmTests.debug.xcconfig */,
 				ED1F498B1F5C6F99B639619A /* Pods-TryRealmTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -147,6 +148,7 @@
 				EDF18F5725F1E6E700A3B092 /* Assets.xcassets */,
 				EDF18F5925F1E6E700A3B092 /* LaunchScreen.storyboard */,
 				EDF18F5C25F1E6E700A3B092 /* Info.plist */,
+				ED17E34625F201B90060A859 /* User.swift */,
 			);
 			path = TryRealm;
 			sourceTree = "<group>";
@@ -407,6 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED17E34725F201B90060A859 /* User.swift in Sources */,
 				EDF18F5325F1E6E700A3B092 /* ViewController.swift in Sources */,
 				EDF18F4F25F1E6E700A3B092 /* AppDelegate.swift in Sources */,
 				EDF18F5125F1E6E700A3B092 /* SceneDelegate.swift in Sources */,

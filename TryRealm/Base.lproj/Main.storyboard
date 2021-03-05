@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIL-a8-3qu">
-                                <rect key="frame" x="20" y="212" width="374" height="44"/>
+                                <rect key="frame" x="20" y="242.5" width="374" height="44"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="66R-Sz-voc"/>
@@ -26,6 +26,9 @@
                                 <state key="normal" title="追加する">
                                     <color key="titleColor" red="0.94509803920000002" green="0.94509803920000002" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="saveUserButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZRH-ND-U00"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Realm使ってみた" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3J7-nq-RLs">
                                 <rect key="frame" x="89" y="64" width="236" height="30"/>
@@ -34,17 +37,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WGx-uT-cdN">
-                                <rect key="frame" x="20" y="114" width="374" height="34"/>
+                                <rect key="frame" x="20" y="144.5" width="374" height="34"/>
                                 <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tnm-Og-rZC">
-                                <rect key="frame" x="20" y="163" width="374" height="34"/>
+                                <rect key="frame" x="20" y="193.5" width="374" height="34"/>
                                 <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="17"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2l0-u0-AoG">
-                                <rect key="frame" x="20" y="271" width="374" height="591"/>
+                                <rect key="frame" x="20" y="301.5" width="374" height="560.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="lrY-gd-rHT" detailTextLabel="hfA-Ae-Yrd" style="IBUITableViewCellStyleValue1" id="eMT-Nh-N7o">
@@ -77,6 +80,12 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="15g-n9-u5z"/>
                                 </connections>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="未入力はクラッシュ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbc-3X-nus">
+                                <rect key="frame" x="129" y="104" width="156" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -85,11 +94,13 @@
                             <constraint firstItem="3J7-nq-RLs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="4R8-Po-BrS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WGx-uT-cdN" secondAttribute="trailing" constant="20" id="53O-u4-Wbb"/>
                             <constraint firstItem="eIL-a8-3qu" firstAttribute="top" secondItem="Tnm-Og-rZC" secondAttribute="bottom" constant="15" id="7Ir-qF-gFF"/>
+                            <constraint firstItem="dbc-3X-nus" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Biq-jm-cf2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2l0-u0-AoG" secondAttribute="bottom" id="CSu-XD-Iaf"/>
+                            <constraint firstItem="dbc-3X-nus" firstAttribute="top" secondItem="3J7-nq-RLs" secondAttribute="bottom" constant="10" id="Jho-ke-4i9"/>
                             <constraint firstItem="Tnm-Og-rZC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LOG-oT-hyh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2l0-u0-AoG" secondAttribute="trailing" constant="20" id="LxT-X5-oit"/>
                             <constraint firstItem="Tnm-Og-rZC" firstAttribute="top" secondItem="WGx-uT-cdN" secondAttribute="bottom" constant="15" id="Y89-H8-qzF"/>
-                            <constraint firstItem="WGx-uT-cdN" firstAttribute="top" secondItem="3J7-nq-RLs" secondAttribute="bottom" constant="20" id="YsY-aD-fD4"/>
+                            <constraint firstItem="WGx-uT-cdN" firstAttribute="top" secondItem="dbc-3X-nus" secondAttribute="bottom" constant="20" id="YsY-aD-fD4"/>
                             <constraint firstItem="2l0-u0-AoG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="eCy-2L-COS"/>
                             <constraint firstItem="eIL-a8-3qu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="eT3-GD-ldN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eIL-a8-3qu" secondAttribute="trailing" constant="20" id="iKZ-DQ-SNS"/>
@@ -103,6 +114,7 @@
                     </view>
                     <connections>
                         <outlet property="saveRealmButton" destination="eIL-a8-3qu" id="S4R-uI-cwW"/>
+                        <outlet property="tableView" destination="2l0-u0-AoG" id="E8j-I6-hXg"/>
                         <outlet property="textFieldAge" destination="Tnm-Og-rZC" id="NIj-eb-Fyj"/>
                         <outlet property="textFieldName" destination="WGx-uT-cdN" id="hV9-o5-MUc"/>
                     </connections>

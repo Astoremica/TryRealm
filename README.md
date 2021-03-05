@@ -9,7 +9,7 @@ pod init
 ```
 
 ```bash
-pod ReakmSwift
+pod RealmSwift
 ```
 
 
